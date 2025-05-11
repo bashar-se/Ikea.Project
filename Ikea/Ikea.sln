@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F941C82-EF73-4842-B5E3-B9C0591DFEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ikea.Domain", "src\Ikea.Domain\Ikea.Domain.csproj", "{4E872250-D3C8-478F-B6E9-98C2F9222EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ikea.Application", "src\Ikea.Application\Ikea.Application.csproj", "{C3B9BC78-6E38-4CF9-9093-D785E11148F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ikea.Infrastructure", "src\Ikea.Infrastructure\Ikea.Infrastructure.csproj", "{75E5B0D9-C8F8-4A91-9A4F-7A429D07B57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ikea.API", "src\Ikea.API\Ikea.API.csproj", "{23CA4B91-5D6D-48B6-8542-B3B2F94C6449}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E872250-D3C8-478F-B6E9-98C2F9222EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E872250-D3C8-478F-B6E9-98C2F9222EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E872250-D3C8-478F-B6E9-98C2F9222EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E872250-D3C8-478F-B6E9-98C2F9222EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B9BC78-6E38-4CF9-9093-D785E11148F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B9BC78-6E38-4CF9-9093-D785E11148F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B9BC78-6E38-4CF9-9093-D785E11148F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B9BC78-6E38-4CF9-9093-D785E11148F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E5B0D9-C8F8-4A91-9A4F-7A429D07B57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E5B0D9-C8F8-4A91-9A4F-7A429D07B57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E5B0D9-C8F8-4A91-9A4F-7A429D07B57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E5B0D9-C8F8-4A91-9A4F-7A429D07B57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23CA4B91-5D6D-48B6-8542-B3B2F94C6449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CA4B91-5D6D-48B6-8542-B3B2F94C6449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CA4B91-5D6D-48B6-8542-B3B2F94C6449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CA4B91-5D6D-48B6-8542-B3B2F94C6449}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E872250-D3C8-478F-B6E9-98C2F9222EFD} = {8F941C82-EF73-4842-B5E3-B9C0591DFEC0}
+		{C3B9BC78-6E38-4CF9-9093-D785E11148F1} = {8F941C82-EF73-4842-B5E3-B9C0591DFEC0}
+		{75E5B0D9-C8F8-4A91-9A4F-7A429D07B57D} = {8F941C82-EF73-4842-B5E3-B9C0591DFEC0}
+		{23CA4B91-5D6D-48B6-8542-B3B2F94C6449} = {8F941C82-EF73-4842-B5E3-B9C0591DFEC0}
+	EndGlobalSection
+EndGlobal
